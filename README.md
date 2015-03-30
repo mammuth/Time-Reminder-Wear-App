@@ -1,4 +1,5 @@
 # Time Reminder
+![alt tag](http://www.maxi-muth.de/wordpress/wp-content/uploads/2015/03/Featured-Image.png)
 Diese App dient als Beispiel für ein Android-Tutorial auf android-user.de und maxi-muth.de.
 
 ### Was macht die App?
