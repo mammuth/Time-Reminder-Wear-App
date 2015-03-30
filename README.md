@@ -1,2 +1,9 @@
-# android-wear-hello-world
-Code of project of tutorial for smartwatch.me
+# Time Reminder
+Diese App dient als Beispiel für ein Android-Tutorial auf android-user.de und maxi-muth.de.
+
+### Was macht die App?
+Es handelt sich um eine Produktivitäts-App, die dich alle 60 Minuten daran erinnert, wie viel Uhr es ist, sodass du den überblick behälst und man seine Zeit effektiv nutzen kann.
+
+Die Kontrolle über die App kann sowohl auf dem Handy, wie auch der Smartwatch geschehen.
+
+Sie kann leicht erweitert oder optimiert werden, wie zB. mit custom Erinnerungsintervallen oder verbesserten Notifications und vielerlei kleiner Dinge. Darauf wurde hier absichtlich verzichtet, um den Rahmen eines kleinen Tutorials nicht zu sprengen.
