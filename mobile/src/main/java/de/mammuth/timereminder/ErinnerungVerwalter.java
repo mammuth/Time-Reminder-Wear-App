@@ -28,6 +28,11 @@ public class ErinnerungVerwalter {
     public ErinnerungVerwalter(Context c) {
         this.context = c;
 
+        // Der Android AlarmManager ist eine System Komponente, die unsere App zu der von uns definierten Uhrzeit
+        // "wecken" kann. Das ist NICHT der eigentliche Alarm/Notification, sondern ruft nur die Klasse "ErinnerungsReceiver" auf!
+        alarmMgr = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(context, ErinnerungReceiver.class);
+        alarmIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
     }
 
     public void setzeErinnerung() {
